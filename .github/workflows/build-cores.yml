@@ -16,4 +16,4 @@ jobs:
       - name: Repository checkout
         uses: actions/checkout@v4
       - name: Core generation
-        run: docker run --rm -v ${{ github.workspace }}:/build ghcr.io/teiram/calypso-quartus-docker:0.1 /usr/local/bin/build-images
+        run: docker run --rm -v ${{ github.workspace }}:/build ghcr.io/teiram/calypso-quartus-docker:0.2 /usr/local/bin/build-images
